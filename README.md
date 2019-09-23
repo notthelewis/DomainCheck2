@@ -22,17 +22,18 @@ Examples of commands:
 
 	 ./init.sh google.com 2 - quick check, non-recursive query 
 
-
 	 ./init.sh google.com 1 - extended check, recursive [ANY] query 
 
 	 ./init.sh google.com 3 - extended check, non-recursive query 
 
 <DOMAIN_NAME> parameter
+
 Domain name is firstly sanitized. This means that:
 
 http://
 https://
 ftp://
+
 
 Will be removed, as the protocol that it's accessing does not make a difference. 
 
@@ -47,7 +48,7 @@ website1.com
 
 <EXTENDED_CHECK> parameter 
 
-:THIS IS BROKEN INTO TWO CATEGORIES: 
+:THIS IS BROKEN INTO TWO CATEGORIES 
   
 		0 or 2 
   
