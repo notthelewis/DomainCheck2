@@ -19,9 +19,12 @@ Then, to run in the directory:
 Examples of commands:
 
 ./init.sh google.com 0 - quick check, recursive [ANY] query
+
 ./init.sh google.com 2 - quick check, non-recursive query 
 
+
 ./init.sh google.com 1 - extended check, recursive [ANY] query 
+
 ./init.sh google.com 3 - extended check, non-recursive query 
 
 <DOMAIN_NAME> parameter
@@ -44,9 +47,11 @@ website1.com
 
 <EXTENDED_CHECK> parameter 
 
-THIS IS BROKEN INTO TWO CATEGORIES
- 0 or 2 
- 1 or 3
+:THIS IS BROKEN INTO TWO CATEGORIES: 
+  
+		0 or 2 
+  
+		1 or 3
 
 0 and 2 will both run the base checks, without the extended checks. 
 1 and 3 will run the extended checks. 
